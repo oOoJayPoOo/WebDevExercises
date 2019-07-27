@@ -1,0 +1,12 @@
+Listing.data.children[i].title
+Listing.data.children[i].domain
+Listing.data.children[i].url
+
+var output = "";
+for (var i = 0; i <= 5; i ++)
+{
+    output += "<li>" + Listing.data.children[i].title + "</li>";
+    output += "<li>" + Listing.data.children[i].domain + "</li>";
+    output += "<li>" + Listing.data.children[i].url + "</li>";
+}
+document.getElementById("worldnews").innerHTML = output;

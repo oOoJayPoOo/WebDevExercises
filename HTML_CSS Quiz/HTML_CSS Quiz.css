@@ -1,0 +1,25 @@
+/************************
+* @author Jay Peterson  *
+* 7/25/19               *
+* Website Design        *
+************************/
+.text {
+    font-family: "Lato";
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2, h4, div.text-info {
+    font-family: "Abril Fatface";
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.date {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+i {
+    color: black;
+}
